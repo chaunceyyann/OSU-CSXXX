@@ -49,7 +49,7 @@ int creature::rollDice(int dices, int sides)
     int point = 0;
     int rd_int = rand();
     int *arr=new int[dices];
-    cout << dices;
+    cout << dices << " " << sides << "-sides";
     (dices==1)?cout<<" die is":cout<<" dice are";
     cout << " rolling."<< endl;
     cout << "Result: ";
