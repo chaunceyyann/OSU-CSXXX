@@ -1,5 +1,5 @@
 #include<iostream>
-#include"findMedian.h"
+#include"person.hpp"
 using namespace std;
 int main() {
     int arr[]={6,46,75,38,3,74,56,8,9,55,73};

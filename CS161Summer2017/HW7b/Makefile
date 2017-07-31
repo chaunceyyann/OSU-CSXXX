@@ -1,12 +1,12 @@
 # This is a comment line
 # Sample makefile for fraction class
 
-main: main.cpp findMedian.cpp 
-	g++ findMedian.cpp main.cpp
+main: person.cpp person.hpp stdDev.cpp 
+	g++ fperson.cpp stdDev.cpp
 
-test: main.cpp findMedian.cpp 
-	g++ findMedian.cpp main.cpp && ./a.out
-
+main: person.cpp person.hpp stdDev.cpp 
+	g++ fperson.cpp stdDev.cpp && ./a.out
+	
 all: 
 	make main && make clean
 
